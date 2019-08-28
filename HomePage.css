@@ -13,6 +13,15 @@ img:hover{
   animation-timing-function: linear;
 }
 
+.centreLine{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.para{
+  text-align: center;
+}
 
 @keyframes pulse {
         0%   { transform: translateY(0); }
