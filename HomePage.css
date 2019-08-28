@@ -1,7 +1,3 @@
-img:hover{
-  opacity: 0.8;
-}
-
 .centreLogo{
   margin: 0 auto;
   display: block;
@@ -14,21 +10,24 @@ img:hover{
 }
 
 .centreLine{
-  width: 80%;
+  width: 60%;
   display: block;
   margin: 0 auto;
 }
 
 .para{
   text-align: center;
+  opacity: 0.5;
 }
 
 .circleBoys{
   display: inline-block;
-  left: 50%;
-  right: 50%;
   width: 20%;
   margin: 0 auto;
+}
+
+.circleBoys:hover{
+  opacity: 0.2;
 }
 
 @keyframes pulse {
