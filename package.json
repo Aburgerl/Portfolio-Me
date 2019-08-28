@@ -1,6 +1,9 @@
 {
   "name": "abigailmadeloportfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "license": "MIT",
   "description": "This is Abigail Madelo's Portfolio that hopefully will get you to understand who she is and why you want to work with her",
   "keywords": [
