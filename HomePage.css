@@ -23,6 +23,14 @@ img:hover{
   text-align: center;
 }
 
+.circleBoys{
+  display: inline-block;
+  left: 50%;
+  right: 50%;
+  width: 20%;
+  margin: 0 auto;
+}
+
 @keyframes pulse {
         0%   { transform: translateY(0); }
         50%  { transform: translateY(0); opacity: .7; }
