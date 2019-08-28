@@ -1,34 +1,29 @@
 {
-  "name": "abigailmadeloportfolio",
-  "version": "1.0.0",
-  "engines": {
-    "node": "10.3.0"
-  },
-  "license": "MIT",
-  "description": "This is Abigail Madelo's Portfolio that hopefully will get you to understand who she is and why you want to work with her",
-  "keywords": [
-    "Portfolio",
-    "Abigail",
-    "Madelo",
-    "Work",
-    "Student"
-  ],
-  "main": "app.js",
-  "repository":{
-    "type": "git",
-    "url": "https://git.heroku.com/abigailmadeloportfolio.git"
-  },
-  "homepage" : "https://github.com/Aburgerl/Portfolio-Me#readme",
-  "scripts": {
-        "build": "node app.js",
-        "test": "standard"
-    },
-    "devDependencies": {
-      "nodemon": "^1.19.1"
-    },
-    "dependencies": {
-      "ejs": "^2.6.2",
-      "express": "^4.17.1",
-      "xmlhttprequest": "^1.8.0"
-    }
+	"name": "abigailmadeloportfolio",
+	"version": "1.0.0",
+	"engines": {
+		"node": "10.3.0"
+	},
+	"license": "MIT",
+	"description": "This is Abigail Madelo's Portfolio that hopefully will get you to understand who she is and why you want to work with her",
+	"keywords": [
+		"Portfolio",
+		"Abigail",
+		"Madelo",
+		"Work",
+		"Student"
+	],
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://git.heroku.com/abigailmadeloportfolio.git"
+	},
+	"homepage": "https://github.com/Aburgerl/Portfolio-Me#readme",
+	"scripts": {
+		"start": "node app.js",
+		"test": "standard"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }
