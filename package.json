@@ -1,15 +1,10 @@
 {
   "name": "Portfolio-Me",
-  "version": "0.3.0",
-  "engines": {
-    "node": "8.11.1"
-  },
+  "version": "6.9.0",
+  "description": "Abigail Madelo's Portfolio",
+  "homepage": "https://github.com/Aburgerl/Portfolio-Me/blob/master/HomePage.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aburgerl/Portfolio-Me.git"
+    "url": "https://github.com/Aburgerl/Portfolio-Me.git"
   },
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  }
 }
