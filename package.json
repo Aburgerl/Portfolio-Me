@@ -1,10 +1,31 @@
 {
-  "name": "Portfolio-Me",
-  "version": "6.9.0",
-  "description": "Abigail Madelo's Portfolio",
-  "homepage": "https://github.com/Aburgerl/Portfolio-Me/blob/master/HomePage.html",
-  "repository": {
+  "name": "Abigail's Portfolio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "This is Abigail Madelo's Portfolio that hopefully will get you to understand who she is and why you want to work with her",
+  "keywords": [
+    "Portfolio",
+    "Abigail",
+    "Madelo",
+    "Work",
+    "Student"
+  ],
+  "main": "app.js",
+  "repository":{
     "type": "git",
-    "url": "https://github.com/Aburgerl/Portfolio-Me.git"
+    "url": "https://git.heroku.com/abigailmadeloportfolio.git"
   },
+  "homepage" : "https://github.com/Aburgerl/Portfolio-Me#readme"
+  "scripts": {
+        "build": "node app.js",
+        "test": "standard"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    },
+    "dependencies": {
+      "ejs": "^2.6.2",
+      "express": "^4.17.1",
+      "xmlhttprequest": "^1.8.0"
+    }
 }
