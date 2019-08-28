@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://git.heroku.com/abigailmadeloportfolio.git"
   },
-  "homepage" : "https://github.com/Aburgerl/Portfolio-Me#readme"
+  "homepage" : "https://github.com/Aburgerl/Portfolio-Me#readme",
   "scripts": {
         "build": "node app.js",
         "test": "standard"
